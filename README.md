@@ -45,7 +45,7 @@ Finds the TV seasons and episodes that have aired, and the films from your colle
 - **TV shows** are compared with an episode guide (TVmaze, or TMDb with a key). Missing whole seasons, single episodes and new episodes that haven't arrived are all listed. Shows no guide knows are checked for gaps in your own numbering.
 - **Film collections** list the released films you don't own from each franchise you've started. Needs a free TMDb API key.
 - **Its own page in the dashboard** with search, sorting, NEW tags and Ignore buttons.
-- **Discord** hears only about *new* gaps, not the same ones every day, with an optional "caught up" message when you fill one.
+- **Discord** hears only about *new* gaps, not the same ones every day, with an optional "caught up" message when you fill one and an optional weekly summary.
 - Runs daily, after library scans, or with **Check now**.
 
 [Read more →](https://github.com/TNT24/jellyfin-completionist)
