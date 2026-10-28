@@ -1,0 +1,545 @@
+[
+  {
+    "guid": "aceeaf3d-1c56-410f-af3b-0f4f8fa40746",
+    "name": "Completionist",
+    "description": "Lists aired TV seasons and episodes, and released films from your collections, that are missing from your library, and posts new ones to Discord.",
+    "overview": "Find missing episodes, seasons and collection films, with Discord notifications",
+    "owner": "TNT24",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/TNT24/jellyfin-completionist/main/assets/logo.png",
+    "versions": [
+      {
+        "version": "1.1.0.12",
+        "changelog": "New option: post an \"all clear\" to Discord when the daily check or Check now finds nothing new missing.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-completionist/releases/download/v1.1.0/Completionist_1.1.0.12_jellyfin-12.zip",
+        "checksum": "2ee45df2cb38f5a6361559ae64e89297",
+        "timestamp": "2026-10-27T18:37:40Z"
+      },
+      {
+        "version": "1.1.0.11",
+        "changelog": "New option: post an \"all clear\" to Discord when the daily check or Check now finds nothing new missing.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-completionist/releases/download/v1.1.0/Completionist_1.1.0.11_jellyfin-10.11.zip",
+        "checksum": "54426715186b1c430df00748ec69ecba",
+        "timestamp": "2026-10-27T18:37:40Z"
+      },
+      {
+        "version": "1.0.0.12",
+        "changelog": "First release: finds missing TV seasons and episodes (TVmaze or TMDb) and missing films from your collections (TMDb), and posts new ones to Discord.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-completionist/releases/download/v1.0.0/Completionist_1.0.0.12_jellyfin-12.zip",
+        "checksum": "e1205ca1893d1700ccb267be672ba77b",
+        "timestamp": "2026-10-27T00:19:08Z"
+      },
+      {
+        "version": "1.0.0.11",
+        "changelog": "First release: finds missing TV seasons and episodes (TVmaze or TMDb) and missing films from your collections (TMDb), and posts new ones to Discord.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-completionist/releases/download/v1.0.0/Completionist_1.0.0.11_jellyfin-10.11.zip",
+        "checksum": "6c74420cf335c572109ce6277f5d1054",
+        "timestamp": "2026-10-27T00:19:08Z"
+      }
+    ]
+  },
+  {
+    "guid": "5c6b4d1e-9f3a-4b8e-a2d7-0f1e6c3b9a47",
+    "name": "Forced Subtitles",
+    "overview": "Download missing forced and foreign-language subtitles from OpenSubtitles.com",
+    "description": "Checks your libraries for missing subtitles. English-audio videos get a forced subtitle when one exists; foreign-audio videos get a full subtitle.",
+    "owner": "TNT24",
+    "category": "Subtitles",
+    "imageUrl": "https://raw.githubusercontent.com/TNT24/jellyfin-forced-subtitles/main/assets/logo.png",
+    "versions": [
+      {
+        "version": "1.3.0.12",
+        "changelog": "Optional Discord notifications: a list of the subtitles each run downloaded, and alerts when the OpenSubtitles login fails or the daily download limit runs out",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-forced-subtitles/releases/download/v1.3.0/ForcedSubtitles_1.3.0.12_jellyfin-12.zip",
+        "checksum": "ee5dc1cb89838a21f6de1466b003758e",
+        "timestamp": "2026-10-28T22:19:00Z"
+      },
+      {
+        "version": "1.3.0.11",
+        "changelog": "Optional Discord notifications: a list of the subtitles each run downloaded, and alerts when the OpenSubtitles login fails or the daily download limit runs out",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-forced-subtitles/releases/download/v1.3.0/ForcedSubtitles_1.3.0.11_jellyfin-10.11.zip",
+        "checksum": "f1e67fd53639d36dbc95acad74220a15",
+        "timestamp": "2026-10-28T22:19:00Z"
+      },
+      {
+        "version": "1.2.3.12",
+        "changelog": "Updates now install automatically through Jellyfin's Update Plugins task",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-forced-subtitles/releases/download/v1.2.3/ForcedSubtitles_1.2.3.12_jellyfin-12.zip",
+        "checksum": "fa222aef299ab178149cd0cb3f755446",
+        "timestamp": "2026-10-12T00:00:00Z"
+      },
+      {
+        "version": "1.2.3.11",
+        "changelog": "Updates now install automatically through Jellyfin's Update Plugins task",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-forced-subtitles/releases/download/v1.2.3/ForcedSubtitles_1.2.3.11_jellyfin-10.11.zip",
+        "checksum": "cb4a9fa074ce3ebfb1a6ba01f4e593e5",
+        "timestamp": "2026-10-12T00:00:00Z"
+      },
+      {
+        "version": "1.2.2.12",
+        "changelog": "Notifies in the Jellyfin activity log when the daily download limit is reached and resumes automatically when it renews, even after a restart; login fields show the OpenSubtitles plugin login",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-forced-subtitles/releases/download/v1.2.2/ForcedSubtitles_1.2.2.12_jellyfin-12.zip",
+        "checksum": "2d832675ffc795591d1599a613d9e043",
+        "timestamp": "2026-10-12T00:00:00Z"
+      },
+      {
+        "version": "1.2.2.11",
+        "changelog": "Notifies in the Jellyfin activity log when the daily download limit is reached and resumes automatically when it renews, even after a restart; login fields show the OpenSubtitles plugin login",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-forced-subtitles/releases/download/v1.2.2/ForcedSubtitles_1.2.2.11_jellyfin-10.11.zip",
+        "checksum": "19069e95bc023a53f714c2be1181fc82",
+        "timestamp": "2026-10-12T00:00:00Z"
+      },
+      {
+        "version": "1.2.1.12",
+        "changelog": "Test connection now saves the settings first, so a newly entered API key or login is used",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-forced-subtitles/releases/download/v1.2.1/ForcedSubtitles_1.2.1.12_jellyfin-12.zip",
+        "checksum": "8f3c9af7b69a5e9c606eb76b9ed889ee",
+        "timestamp": "2026-10-11T00:00:00Z"
+      },
+      {
+        "version": "1.2.1.11",
+        "changelog": "Test connection now saves the settings first, so a newly entered API key or login is used",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-forced-subtitles/releases/download/v1.2.1/ForcedSubtitles_1.2.1.11_jellyfin-10.11.zip",
+        "checksum": "2cd1772eaed52a8d9b5a230a963fe9df",
+        "timestamp": "2026-10-11T00:00:00Z"
+      },
+      {
+        "version": "1.2.0.12",
+        "changelog": "Respects the daily download limit, retries failures after a day, read-only media folder fallback, log panel on the settings page",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-forced-subtitles/releases/download/v1.2.0/ForcedSubtitles_1.2.0.12_jellyfin-12.zip",
+        "checksum": "59c0f667be7ab44be9abf9798f109d6b",
+        "timestamp": "2026-10-11T00:00:00Z"
+      },
+      {
+        "version": "1.2.0.11",
+        "changelog": "Respects the daily download limit, retries failures after a day, read-only media folder fallback, log panel on the settings page",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-forced-subtitles/releases/download/v1.2.0/ForcedSubtitles_1.2.0.11_jellyfin-10.11.zip",
+        "checksum": "efdfedc6f8bdea926e5495351b7211c4",
+        "timestamp": "2026-10-11T00:00:00Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "Built-in API key, reuse OpenSubtitles plugin login, save location setting, logo, Jellyfin 10.11 support",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-forced-subtitles/releases/download/v1.1.0.0/ForcedSubtitles_1.1.0.0_jellyfin-12.zip",
+        "checksum": "48e66ab46c5028f9b1f27760435e5e62",
+        "timestamp": "2026-10-11T00:00:00Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "Built-in API key, reuse OpenSubtitles plugin login, save location setting, logo, Jellyfin 10.11 support",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-forced-subtitles/releases/download/v1.1.0.0/ForcedSubtitles_1.1.0.0_jellyfin-10.11.zip",
+        "checksum": "54307ffb04371e6dbca1fb0b56c428ff",
+        "timestamp": "2026-10-11T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "7c1f3c2e-5b8a-4d3e-9f61-2a4b8e0d9c17",
+    "name": "Franchise Collections",
+    "description": "Automatically creates and updates collections for movie franchises using TMDb collection data.",
+    "overview": "Automatic movie franchise collections",
+    "owner": "TNT24",
+    "category": "Metadata",
+    "imageUrl": "https://raw.githubusercontent.com/TNT24/jellyfin-plugin-franchise-collections/main/images/logo.png",
+    "versions": [
+      {
+        "version": "1.1.0.12",
+        "changelog": "Optional Discord notifications: each sync that creates, fills or deletes collections posts a summary to a Discord channel.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.1.0/franchise-collections_1.1.0.12_jellyfin-12.zip",
+        "checksum": "88b575cdb4ed402543402ca896377480",
+        "timestamp": "2026-10-28T22:21:20Z"
+      },
+      {
+        "version": "1.1.0.11",
+        "changelog": "Optional Discord notifications: each sync that creates, fills or deletes collections posts a summary to a Discord channel.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.1.0/franchise-collections_1.1.0.11_jellyfin-10.11.zip",
+        "checksum": "a95b381927401de6ce231c19567aaa56",
+        "timestamp": "2026-10-28T22:21:20Z"
+      },
+      {
+        "version": "1.0.11.12",
+        "changelog": "Locked collections are never changed or deleted, and with libraries ticked, Sync and override leaves collections and movies from other libraries alone. Syncs with a library filter are faster.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.11/franchise-collections_1.0.11.12_jellyfin-12.zip",
+        "checksum": "acbdc8a720eae7d491ba728fb90ec29f",
+        "timestamp": "2026-10-24T17:04:38Z"
+      },
+      {
+        "version": "1.0.11.11",
+        "changelog": "Locked collections are never changed or deleted, and with libraries ticked, Sync and override leaves collections and movies from other libraries alone. Syncs with a library filter are faster.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.11/franchise-collections_1.0.11.11_jellyfin-10.11.zip",
+        "checksum": "04ab359738ceb0596d3495511f6e7df6",
+        "timestamp": "2026-10-24T17:04:38Z"
+      },
+      {
+        "version": "1.0.10.12",
+        "changelog": "Locked collections get a clear warning in the log and are left alone, and a generated poster no longer hides a missing description.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.10/franchise-collections_1.0.10.12_jellyfin-12.zip",
+        "checksum": "71b841fa6522cd0fa709b8ca9d4d621f",
+        "timestamp": "2026-10-12T22:59:21Z"
+      },
+      {
+        "version": "1.0.10.11",
+        "changelog": "Locked collections get a clear warning in the log and are left alone, and a generated poster no longer hides a missing description.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.10/franchise-collections_1.0.10.11_jellyfin-10.11.zip",
+        "checksum": "0339953430cf50f132a9095a4a7e6c2a",
+        "timestamp": "2026-10-12T22:59:21Z"
+      },
+      {
+        "version": "1.0.9.12",
+        "changelog": "Sync and override now deletes franchise collections with fewer movies than the minimum.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.9/franchise-collections_1.0.9.12_jellyfin-12.zip",
+        "checksum": "a2b9ca07b83d5a1ff1609bd6aeeabc16",
+        "timestamp": "2026-10-12T22:36:58Z"
+      },
+      {
+        "version": "1.0.9.11",
+        "changelog": "Sync and override now deletes franchise collections with fewer movies than the minimum.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.9/franchise-collections_1.0.9.11_jellyfin-10.11.zip",
+        "checksum": "4112b595db2f4f1ca6929260aee3be47",
+        "timestamp": "2026-10-12T22:36:58Z"
+      },
+      {
+        "version": "1.0.8.12",
+        "changelog": "Fills in the description and poster of franchise collections that have none, such as collections adopted from ones you made yourself.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.8/franchise-collections_1.0.8.12_jellyfin-12.zip",
+        "checksum": "31ec2f2694c1e9e88e79463a9e5cdb16",
+        "timestamp": "2026-10-12T22:30:53Z"
+      },
+      {
+        "version": "1.0.8.11",
+        "changelog": "Fills in the description and poster of franchise collections that have none, such as collections adopted from ones you made yourself.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.8/franchise-collections_1.0.8.11_jellyfin-10.11.zip",
+        "checksum": "eb6f6783235b44474e58f24cf84798f3",
+        "timestamp": "2026-10-12T22:30:53Z"
+      },
+      {
+        "version": "1.0.7.12",
+        "changelog": "New settings: movie order inside franchise collections (release date by default), and optional collection posters built from the posters of the movies in each collection.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.7/franchise-collections_1.0.7.12_jellyfin-12.zip",
+        "checksum": "2d81b1a92e02e7d17ee1dbda9be3706e",
+        "timestamp": "2026-10-12T22:20:31Z"
+      },
+      {
+        "version": "1.0.7.11",
+        "changelog": "New settings: movie order inside franchise collections (release date by default), and optional collection posters built from the posters of the movies in each collection.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.7/franchise-collections_1.0.7.11_jellyfin-10.11.zip",
+        "checksum": "0f661f51ec11cb5ca1f4a8fa3f93a00f",
+        "timestamp": "2026-10-12T22:20:31Z"
+      },
+      {
+        "version": "1.0.6.12",
+        "changelog": "Adds Franchise Collections to the dashboard side menu.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.6/franchise-collections_1.0.6.12_jellyfin-12.zip",
+        "checksum": "08501af8dcfc8e6675adea8b8cd5ba86",
+        "timestamp": "2026-10-12T21:46:56Z"
+      },
+      {
+        "version": "1.0.6.11",
+        "changelog": "Adds Franchise Collections to the dashboard side menu.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.6/franchise-collections_1.0.6.11_jellyfin-10.11.zip",
+        "checksum": "b9fe38e47b31beacc7f213d1d84a0c6a",
+        "timestamp": "2026-10-12T21:46:56Z"
+      },
+      {
+        "version": "1.0.5.12",
+        "changelog": "Sync and override now deletes every collection that is not a franchise collection, including hand-made ones, unless its name is in Excluded franchises. Movies are never deleted.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.5/franchise-collections_1.0.5.12_jellyfin-12.zip",
+        "checksum": "5f73bd2845817907f4d59fd021eccfe7",
+        "timestamp": "2026-10-12T21:43:26Z"
+      },
+      {
+        "version": "1.0.5.11",
+        "changelog": "Sync and override now deletes every collection that is not a franchise collection, including hand-made ones, unless its name is in Excluded franchises. Movies are never deleted.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.5/franchise-collections_1.0.5.11_jellyfin-10.11.zip",
+        "checksum": "38a8fd1ca8c799f4e5fa065ab38c168d",
+        "timestamp": "2026-10-12T21:43:26Z"
+      },
+      {
+        "version": "1.0.4.12",
+        "changelog": "Redesigned settings page: changes save automatically (no Save button), library ticks always show, and a larger labelled Excluded franchises box.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.4/franchise-collections_1.0.4.12_jellyfin-12.zip",
+        "checksum": "484741bef499687672502a9f4ddd3b9c",
+        "timestamp": "2026-10-12T21:30:50Z"
+      },
+      {
+        "version": "1.0.4.11",
+        "changelog": "Redesigned settings page: changes save automatically (no Save button), library ticks always show, and a larger labelled Excluded franchises box.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.4/franchise-collections_1.0.4.11_jellyfin-10.11.zip",
+        "checksum": "cc358f5dcd2b669b34c6b9139f2ddff2",
+        "timestamp": "2026-10-12T21:30:50Z"
+      },
+      {
+        "version": "1.0.3.12",
+        "changelog": "Turns on automatic updates for the plugin. Includes the 1.0.2 fixes for wrongly named collections and duplicate collections.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.3/franchise-collections_1.0.3.12_jellyfin-12.zip",
+        "checksum": "ec80afd3d009e85a093ed9e1f7071bc1",
+        "timestamp": "2026-10-12T21:05:01Z"
+      },
+      {
+        "version": "1.0.3.11",
+        "changelog": "Turns on automatic updates for the plugin. Includes the 1.0.2 fixes for wrongly named collections and duplicate collections.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.3/franchise-collections_1.0.3.11_jellyfin-10.11.zip",
+        "checksum": "25f94fe0a3951c533eccb1b902d4ea07",
+        "timestamp": "2026-10-12T21:05:01Z"
+      },
+      {
+        "version": "1.0.2.12",
+        "changelog": "Fixes collections getting the name and artwork of a similarly named franchise (e.g. RED as Red Ryder). Sync and override now deletes duplicate franchise collections.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.2/franchise-collections_1.0.2.12_jellyfin-12.zip",
+        "checksum": "4d5b24c29f7da1d2c9ebad8d5da6a940",
+        "timestamp": "2026-10-12T21:03:26Z"
+      },
+      {
+        "version": "1.0.2.11",
+        "changelog": "Fixes collections getting the name and artwork of a similarly named franchise (e.g. RED as Red Ryder). Sync and override now deletes duplicate franchise collections.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.2/franchise-collections_1.0.2.11_jellyfin-10.11.zip",
+        "checksum": "b726a8f6fcdb07d2a5c8ada7979b1cc3",
+        "timestamp": "2026-10-12T21:03:26Z"
+      },
+      {
+        "version": "1.0.1.12",
+        "changelog": "Separate version numbers for the Jellyfin 12 and 10.11 builds, so each server gets the right one.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.1/franchise-collections_1.0.1.12_jellyfin-12.zip",
+        "checksum": "e422bf6f6f06c2519a882c1d59850f42",
+        "timestamp": "2026-10-11T11:00:18Z"
+      },
+      {
+        "version": "1.0.1.11",
+        "changelog": "Separate version numbers for the Jellyfin 12 and 10.11 builds, so each server gets the right one.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.1/franchise-collections_1.0.1.11_jellyfin-10.11.zip",
+        "checksum": "8b918b1988f7c130e809bcd616c7cb8c",
+        "timestamp": "2026-10-11T11:00:18Z"
+      },
+      {
+        "version": "1.0.0.1",
+        "changelog": "Choose which libraries to use. New \"Sync and override\" button makes franchise collections match TMDb exactly. Logo.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.0.1/franchise-collections_1.0.0.1_jellyfin-12.zip",
+        "checksum": "6617e0dfd3c9768330932b2cd80bf588",
+        "timestamp": "2026-10-11T10:29:47Z"
+      },
+      {
+        "version": "1.0.0.1",
+        "changelog": "Choose which libraries to use. New \"Sync and override\" button makes franchise collections match TMDb exactly. Logo.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.0.1/franchise-collections_1.0.0.1_jellyfin-10.11.zip",
+        "checksum": "3a2272ae01d83d35958ec3ae38645422",
+        "timestamp": "2026-10-11T10:29:47Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial release",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.0.0/franchise-collections_1.0.0.0_jellyfin-12.zip",
+        "checksum": "0a66b3962ecd242ebec287d09b4b5baf",
+        "timestamp": "2026-10-11T10:06:22Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial release",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-plugin-franchise-collections/releases/download/v1.0.0.0/franchise-collections_1.0.0.0_jellyfin-10.11.zip",
+        "checksum": "68d31249ff170ba0f6dc2d0d3d1b2885",
+        "timestamp": "2026-10-11T10:06:22Z"
+      }
+    ]
+  },
+  {
+    "guid": "6e3ba9d2-8036-4708-9ce7-35413b443d8f",
+    "name": "Seasonal Picks",
+    "description": "Picks movies from your watch history and the time of year.",
+    "overview": "History- and calendar-aware movie picks as playlists (works on TV), a shared Suggested library, themed seasonal covers and a web Suggested screen.",
+    "owner": "TNT24",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/TNT24/jellyfin-seasonal-picks/main/docs/logo.png",
+    "versions": [
+      {
+        "version": "1.5.0.12",
+        "changelog": "New: post to Discord. Add a Discord webhook URL under Where picks show → Discord. Each season or special day is announced when it starts, with a few films from your library that fit and how many users got its playlist, and again when it ends. Optionally post one user's top picks every day, with posters when you add your server's address.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-seasonal-picks/releases/download/v1.5.0/SeasonalPicks_1.5.0.12.zip",
+        "checksum": "89cd83a36d632dd28f22292e2c8bfe02",
+        "timestamp": "2026-10-28T22:23:25.7982216Z"
+      },
+      {
+        "version": "1.5.0.11",
+        "changelog": "New: post to Discord. Add a Discord webhook URL under Where picks show → Discord. Each season or special day is announced when it starts, with a few films from your library that fit and how many users got its playlist, and again when it ends. Optionally post one user's top picks every day, with posters when you add your server's address.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-seasonal-picks/releases/download/v1.5.0/SeasonalPicks_1.5.0.11.zip",
+        "checksum": "5d59d08b0f8e421263a4029c470df17c",
+        "timestamp": "2026-10-28T22:23:25.7982216Z"
+      },
+      {
+        "version": "1.4.2.12",
+        "changelog": "The home row starts on the first pick, and the ‹ › buttons move by whole cards, stopping at the same left margin as Jellyfin's other rows instead of running off the edge.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-seasonal-picks/releases/download/v1.4.2/SeasonalPicks_1.4.2.12.zip",
+        "checksum": "f9baf82784eaf542b4748bd4d4a87293",
+        "timestamp": "2026-10-27T12:00:25.0609972Z"
+      },
+      {
+        "version": "1.4.2.11",
+        "changelog": "The home row starts on the first pick, and the ‹ › buttons move by whole cards, stopping at the same left margin as Jellyfin's other rows instead of running off the edge.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-seasonal-picks/releases/download/v1.4.2/SeasonalPicks_1.4.2.11.zip",
+        "checksum": "c194b7413bd68880977eada8cc9c1a34",
+        "timestamp": "2026-10-27T12:00:25.0609972Z"
+      },
+      {
+        "version": "1.4.1.12",
+        "changelog": "The home row has ‹ › buttons beside See all instead of a scrollbar (swipe still works on phones and tablets). A little more space between the home row title and its cards.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-seasonal-picks/releases/download/v1.4.1/SeasonalPicks_1.4.1.12.zip",
+        "checksum": "107e11d147fa0554b658a7e48475b68a",
+        "timestamp": "2026-10-27T11:28:13.2480394Z"
+      },
+      {
+        "version": "1.4.1.11",
+        "changelog": "The home row has ‹ › buttons beside See all instead of a scrollbar (swipe still works on phones and tablets). A little more space between the home row title and its cards.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-seasonal-picks/releases/download/v1.4.1/SeasonalPicks_1.4.1.11.zip",
+        "checksum": "656f874cf5ea7f886135ed7bd66b6c1d",
+        "timestamp": "2026-10-27T11:28:13.2480394Z"
+      },
+      {
+        "version": "1.4.0.12",
+        "changelog": "Each pick's reason is now a readable line under the title, instead of small text over the poster. The home row's cards are the same size as Jellyfin's other home rows. Choose where the home row goes: at the top, after any of the first six rows, or at the bottom. Choose portrait (poster) or thumb (landscape) cards for the home row. Suggested is no longer in the profile menu. Open the full Suggested screen with See all on the home row.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-seasonal-picks/releases/download/v1.4.0/SeasonalPicks_1.4.0.12.zip",
+        "checksum": "21f7125a106aac304bd7fb18fb58464b",
+        "timestamp": "2026-10-27T11:20:29.5147426Z"
+      },
+      {
+        "version": "1.4.0.11",
+        "changelog": "Each pick's reason is now a readable line under the title, instead of small text over the poster. The home row's cards are the same size as Jellyfin's other home rows. Choose where the home row goes: at the top, after any of the first six rows, or at the bottom. Choose portrait (poster) or thumb (landscape) cards for the home row. Suggested is no longer in the profile menu. Open the full Suggested screen with See all on the home row.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-seasonal-picks/releases/download/v1.4.0/SeasonalPicks_1.4.0.11.zip",
+        "checksum": "cb89a46b9a4e8fb5e374e464c8a50f17",
+        "timestamp": "2026-10-27T11:20:29.5147426Z"
+      },
+      {
+        "version": "1.3.2.12",
+        "changelog": "Fixed the web Suggested screen and home row sometimes not appearing, especially alongside Theme Builder or other plugins that add to the web client. The plugin now keeps retrying at startup, and checks every few minutes that the web client still has the screen.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-seasonal-picks/releases/download/v1.3.2/SeasonalPicks_1.3.2.12.zip",
+        "checksum": "bee0e8926e2e19f66256c4a57b8a6eb0",
+        "timestamp": "2026-10-24T17:05:08.5388999Z"
+      },
+      {
+        "version": "1.3.2.11",
+        "changelog": "Fixed the web Suggested screen and home row sometimes not appearing, especially alongside Theme Builder or other plugins that add to the web client. The plugin now keeps retrying at startup, and checks every few minutes that the web client still has the screen.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-seasonal-picks/releases/download/v1.3.2/SeasonalPicks_1.3.2.11.zip",
+        "checksum": "1edcc375b09e1e998996b223ccff7820",
+        "timestamp": "2026-10-24T17:05:08.5388999Z"
+      },
+      {
+        "version": "1.3.1.12",
+        "changelog": "Now also runs on Jellyfin 10.11. Each release comes in two builds, one for 10.11 and one for 12, and Jellyfin installs the right one by itself.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-seasonal-picks/releases/download/v1.3.1/SeasonalPicks_1.3.1.12.zip",
+        "checksum": "732a9fa69b7769a816cd7caf7ec03e91",
+        "timestamp": "2026-10-13T00:18:02.5310163Z"
+      },
+      {
+        "version": "1.3.1.11",
+        "changelog": "Now also runs on Jellyfin 10.11. Each release comes in two builds, one for 10.11 and one for 12, and Jellyfin installs the right one by itself.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-seasonal-picks/releases/download/v1.3.1/SeasonalPicks_1.3.1.11.zip",
+        "checksum": "0b05a131f5667ff767954bdc516a83da",
+        "timestamp": "2026-10-13T00:18:02.5310163Z"
+      },
+      {
+        "version": "1.3.0.0",
+        "changelog": "Longer seasons now change their cover each week: Halloween (pumpkin patch, graveyard, haunted house, witch's cauldron), Christmas (tree, living room by the fire, Santa's sleigh, baubles and holly), winter (snowfall, snowy forest), Easter (bunny and eggs, basket of chicks), Valentine's (floating hearts, hearts and roses, heart balloons) and Chinese New Year (red lanterns, lantern festival). New Scene option in the cover designer: change each week, or always use one scene. It also lets you preview every scene. New days: Pancake Day (Shrove Tuesday, follows Easter) and Chinese New Year (New Year's Day to the Lantern Festival, follows the lunar calendar). Dates relative to Chinese New Year are written lunar+0, lunar+14 and so on. Remastered covers for New Year, Star Wars Day, Ghostbusters Day, Back to Hogwarts, St Patrick's Day, Bonfire Night and the out-of-season cover. Covers are more detailed, and decorations no longer cross the title or each other. The plugin now updates itself: new releases are installed by Jellyfin's Update Plugins task.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-seasonal-picks/releases/download/v1.3.0/SeasonalPicks_1.3.0.0.zip",
+        "checksum": "ddddbaef9476ce827db3d67aed941f42",
+        "timestamp": "2026-10-13T00:11:24.3819369Z"
+      },
+      {
+        "version": "1.2.2.0",
+        "changelog": "New logo, shown in the plugin catalog and on the plugin's page in the dashboard. Rewritten README with install steps, a getting started guide and answers to common questions.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-seasonal-picks/releases/download/v1.2.2/SeasonalPicks_1.2.2.0.zip",
+        "checksum": "379a224f6fda54c760476b5ef0bd4af2",
+        "timestamp": "2026-10-12T23:13:34.1805797Z"
+      },
+      {
+        "version": "1.2.1.0",
+        "changelog": "Season rows on the settings page are no longer squashed: the name and dates show in full, and on phones the badges and the On box move to a second line. The settings page uses more of a wide screen, and the Picks settings sit in three tidy columns. Buttons such as Remove and Upload picture are readable again, and \"Remove finished cover\" only shows when there is an uploaded cover. What's new loads again on Jellyfin 12.1. On phones, the chosen tab scrolls into view. The Suggested screen fills the whole screen in older browsers.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-seasonal-picks/releases/download/v1.2.1/SeasonalPicks_1.2.1.0.zip",
+        "checksum": "14fa02451a6e7820eb6e1ea4b66be2f6",
+        "timestamp": "2026-10-11T10:43:16.2914002Z"
+      },
+      {
+        "version": "1.2.0.0",
+        "changelog": "Seasonal Picks now has its own entry in the dashboard side menu. New look for the settings page: tabs, a header showing what's on today and what's next, and seasons that fold up into a one-line summary with a cover thumbnail. The Save buttons stay at the bottom of the screen while you scroll. This changelog, under What's new.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-seasonal-picks/releases/download/v1.2.0/SeasonalPicks_1.2.0.0.zip",
+        "checksum": "df3237e293581bc31090756d9ffde525",
+        "timestamp": "2026-10-11T10:18:58.0435940Z"
+      }
+    ]
+  },
+  {
+    "guid": "fa3e0346-a82a-4dc0-a3dc-c20146da6cee",
+    "name": "Theme Builder",
+    "description": "Live theme editor for the Jellyfin web client: colours, cards, details pages, player, presets and more.",
+    "overview": "Adds a Theme Editor to the user menu with a live preview. The theme applies to every web client and is copied into Custom CSS for TV apps.",
+    "owner": "Mark",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/TNT24/JellyfinThemeBuilder/main/assets/thumb.jpg",
+    "versions": [
+      {
+        "version": "1.2.15.0",
+        "changelog": "Next Up (Large layout): the title no longer sits against the image on Jellyfin 12, the card is a bit smaller, and a new Next Up Size (%) option scales it from 60 to 160%.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/TNT24/JellyfinThemeBuilder/releases/download/v1.2.15/ThemeBuilder_1.2.15.0.zip",
+        "checksum": "b2d65fddee94fae8cad5296e2bbd01d2",
+        "timestamp": "2026-10-27T11:51:11Z"
+      }
+    ]
+  }
+]
