@@ -1,4 +1,4 @@
-# TNT24 Jellyfin plugins
+# TNT24 for Jellyfin
 
 One plugin repository for all of my Jellyfin plugins. Add it once and every plugin shows up in the catalog, with updates.
 
@@ -7,7 +7,7 @@ One plugin repository for all of my Jellyfin plugins. Add it once and every plug
 1. In Jellyfin, go to **Dashboard → Plugins → Repositories** (on 10.11: **Dashboard → Plugins → Catalog → ⚙**) and click **+**.
 2. Name it `TNT24` and paste this URL:
    ```
-   https://raw.githubusercontent.com/TNT24/jellyfin-plugins/main/manifest.json
+   https://raw.githubusercontent.com/TNT24/tnt24-jellyfin/main/manifest.json
    ```
 3. Open the **Catalog** and install what you like. Restart Jellyfin after installing.
 
