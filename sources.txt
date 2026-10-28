@@ -1,0 +1,6 @@
+# One plugin manifest per line. The Action merges them into manifest.json.
+https://raw.githubusercontent.com/TNT24/jellyfin-completionist/main/manifest.json
+https://raw.githubusercontent.com/TNT24/jellyfin-forced-subtitles/main/manifest.json
+https://raw.githubusercontent.com/TNT24/jellyfin-plugin-franchise-collections/main/manifest.json
+https://raw.githubusercontent.com/TNT24/jellyfin-seasonal-picks/main/manifest.json
+https://raw.githubusercontent.com/TNT24/JellyfinThemeBuilder/main/manifest.json
