@@ -120,4 +120,4 @@ Open an issue on the plugin's own repository (linked above).
 
 ## How this repository works
 
-`manifest.json` is built by a GitHub Action from each plugin's own manifest (the list is in `sources.txt`). It runs every hour, so a new release shows up here within an hour of being published. To update straight away, run **Actions → Update manifest → Run workflow**. Don't edit `manifest.json` by hand; the next run overwrites it.
+`manifest.json` is built by a GitHub Action from each plugin's own manifest (the list is in `sources.txt`). Each plugin repo starts it as soon as it publishes a new release, so new versions show up here within a minute or two; it also runs on a schedule as a fallback. To update by hand, run **Actions → Update manifest → Run workflow**. Don't edit `manifest.json` by hand; the next run overwrites it.
