@@ -9,6 +9,22 @@
     "imageUrl": "https://raw.githubusercontent.com/TNT24/jellyfin-completionist/main/assets/logo.png",
     "versions": [
       {
+        "version": "1.2.1.12",
+        "changelog": "Clearer \"Still missing\" section in the weekly summary: episode counts per show, totals that include whole seasons, and how many more are not listed. The activity log now says when the weekly summary task skips because the summary is switched off.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-completionist/releases/download/v1.2.1/Completionist_1.2.1.12_jellyfin-12.zip",
+        "checksum": "97d4820f36082a5c3f925607e27476f1",
+        "timestamp": "2026-11-03T19:22:18Z"
+      },
+      {
+        "version": "1.2.1.11",
+        "changelog": "Clearer \"Still missing\" section in the weekly summary: episode counts per show, totals that include whole seasons, and how many more are not listed. The activity log now says when the weekly summary task skips because the summary is switched off.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-completionist/releases/download/v1.2.1/Completionist_1.2.1.11_jellyfin-10.11.zip",
+        "checksum": "836aa5b2fbc3d94dfca22d5fc5d7076a",
+        "timestamp": "2026-11-03T19:22:18Z"
+      },
+      {
         "version": "1.2.0.12",
         "changelog": "New option: a weekly summary on Discord with what went missing and what turned up in the last 7 days, and the most incomplete shows and collections.",
         "targetAbi": "12.0.0.0",
@@ -409,6 +425,38 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/TNT24/jellyfin-seasonal-picks/main/docs/logo.png",
     "versions": [
+      {
+        "version": "1.6.0.12",
+        "changelog": "New: Discord messages include pictures. A season or special day is announced with its cover (the same one as its playlist), and each of today's picks shows its poster. Pictures are sent with the message, so they show even when Discord can't reach your server. Turn them off under Discord → Include pictures. The server address is now only needed for links to Jellyfin.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-seasonal-picks/releases/download/v1.6.0/SeasonalPicks_1.6.0.12.zip",
+        "checksum": "6be4a81aa2a1d92823bc1352ff994941",
+        "timestamp": "2026-11-03T19:34:36.3188159Z"
+      },
+      {
+        "version": "1.6.0.11",
+        "changelog": "New: Discord messages include pictures. A season or special day is announced with its cover (the same one as its playlist), and each of today's picks shows its poster. Pictures are sent with the message, so they show even when Discord can't reach your server. Turn them off under Discord → Include pictures. The server address is now only needed for links to Jellyfin.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-seasonal-picks/releases/download/v1.6.0/SeasonalPicks_1.6.0.11.zip",
+        "checksum": "be30328c9ea655fe2cf7d96fdbed1792",
+        "timestamp": "2026-11-03T19:34:36.3188159Z"
+      },
+      {
+        "version": "1.5.1.12",
+        "changelog": "Discord: if one message fails to post, the ones before it are no longer posted again on the next refresh. Discord: today's picks are always the same films the mirror library shows, when they're for the same user. Discord: long film titles or reasons no longer make Discord refuse today's picks, and titles with * or _ show as written. Discord: a renamed or deleted season, or one that ended while announcements were off, is no longer announced as over, and \"its playlists have been removed\" only appears when the season had playlists. Discord: never waits more than a minute when Discord asks it to slow down. Discord settings: the webhook check matches what the server accepts, and the page says that \"Save and refresh everyone now\" posts too (still only once).",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-seasonal-picks/releases/download/v1.5.1/SeasonalPicks_1.5.1.12.zip",
+        "checksum": "aa39755cd9bd843e38977b07af38e5b0",
+        "timestamp": "2026-11-03T19:29:38.0222936Z"
+      },
+      {
+        "version": "1.5.1.11",
+        "changelog": "Discord: if one message fails to post, the ones before it are no longer posted again on the next refresh. Discord: today's picks are always the same films the mirror library shows, when they're for the same user. Discord: long film titles or reasons no longer make Discord refuse today's picks, and titles with * or _ show as written. Discord: a renamed or deleted season, or one that ended while announcements were off, is no longer announced as over, and \"its playlists have been removed\" only appears when the season had playlists. Discord: never waits more than a minute when Discord asks it to slow down. Discord settings: the webhook check matches what the server accepts, and the page says that \"Save and refresh everyone now\" posts too (still only once).",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TNT24/jellyfin-seasonal-picks/releases/download/v1.5.1/SeasonalPicks_1.5.1.11.zip",
+        "checksum": "78ad411ae980d5ca3b6a7963b5e5fdd7",
+        "timestamp": "2026-11-03T19:29:38.0222936Z"
+      },
       {
         "version": "1.5.0.12",
         "changelog": "New: post to Discord. Add a Discord webhook URL under Where picks show → Discord. Each season or special day is announced when it starts, with a few films from your library that fit and how many users got its playlist, and again when it ends. Optionally post one user's top picks every day, with posters when you add your server's address.",
